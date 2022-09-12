@@ -1,0 +1,29 @@
+@startuml
+
+class Alumno {
+  -padron: int
+  -carrerasActivas: Carrera[]
+  -materiasAprobadas: Materia[]
+}
+
+class Materia {
+  -codigo: String
+  -nombre: String
+  -creditos: int
+}
+
+class Carrera {
+  materiasObligatorias: Materia[]
+  materiasOptativas: Materia[]
+  codigo: String
+  creditosNecesarios: int
+}
+
+Carrera "1" o- "*" Materia
+
+Alumno "1" o- "*" Carrera
+
+Alumno "1" o- "*" Materia
+
+
+@enduml
