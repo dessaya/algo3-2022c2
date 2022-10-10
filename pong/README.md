@@ -21,3 +21,6 @@ como un trabajo "aprobable"**, en parte por las siguientes razones:
   podría separar en clases más pequeñas.
 
 * Faltan tests. Hay pocas funcionalidades testeadas.
+
+* Falta documentación. Al menos se espera que cada clase tenga un comentario
+  indicando cuál es su propósito y sus responsabilidades.
