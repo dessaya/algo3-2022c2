@@ -29,7 +29,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <release>11</release>
+                    <release>18</release>
                 </configuration>
             </plugin>
             <plugin>
@@ -42,7 +42,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>algo3.javafx_hello.App</mainClass>
+                            <mainClass>algo3.pong.PongApp</mainClass>
                         </configuration>
                     </execution>
                 </executions>
